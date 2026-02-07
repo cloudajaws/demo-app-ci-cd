@@ -29,7 +29,7 @@ spec:
         app: demo-app
     spec:
       containers:
-      - image: 066255739085.dkr.ecr.us-west-2.amazonaws.com/demo-app:v1
+      - image: 066255739085.dkr.ecr.us-west-2.amazonaws.com/demo-app:latest
         imagePullPolicy: Always
         name: demo-app
         resources: {}
